@@ -8,7 +8,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import smtplib
 
-# Hàm gửi mail (theo code bạn đã cho)
+# Hàm gửi mail
 def send_email(sender, receiver, subject, body, password):
     message = MIMEMultipart()
     message['From'] = sender
